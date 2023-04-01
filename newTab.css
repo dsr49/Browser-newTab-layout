@@ -1,0 +1,172 @@
+* , html , body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Delicious Handrawn', cursive;
+}
+div.BGimg > img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: inline-block;
+}
+.bookmark{
+    height: 90vh;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    backdrop-filter: blur(2px) saturate(50%);
+    margin-left: 1rem;
+    box-shadow: 1rem 1rem 5rem;   
+}
+i#left{
+    margin: 0.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    /* background-color: black; */
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 50%;
+    z-index: 2;
+}
+i:hover{
+    box-shadow:0.5rem 0.5rem 6rem rgb(255, 255, 255);
+    font-size: 1.1rem;
+    border: 0.5px solid rgb(93, 93, 93);
+}
+
+form>input{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2rem;
+    width: 50vw;
+    margin: 2rem;
+    margin-top: 3rem;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 130px;
+    font-size: 0.8rem;
+}
+
+form>i{
+    position: relative;
+    right:6.2rem;
+}
+form>i.enter{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(77, 77, 77); */
+}
+
+#waqt{
+    color:  #04d9ff;
+    font-size: 13rem;
+    font-weight: 900;
+    text-align: end;
+    box-sizing: content-box;
+    backdrop-filter: blur(1px) saturate(80%);
+    
+    border-radius: 50%;
+    -webkit-box-reflect: below  linear-gradient(transparent,#03bcf4 ;);
+    animation-direction: alternate;
+    animation: time 5s linear infinite;
+    outline: none;
+    
+}
+
+@keyframes time {
+
+    0%, 18% , 25%, 50%, 65%, 78%, 91%, 100%{
+        text-shadow: none;
+    }
+    0%, 23% , 35%, 56%, 67%, 74%, 89%, 100%{
+        color: #c9f2ff;
+        text-shadow:  0px 0px 100px #00c3ff;
+    }
+}
+
+.card{
+    /* border: 3px dashed darkorange; */
+    width:250px ;
+    height:375px;
+    margin: 1.5rem;
+    
+    
+}
+
+.card > img {
+   -webkit-filter: blur(1.5px);
+    border-radius: 30px;
+}
+
+#Weather >div {
+    color: #002734;
+    padding: 1.8rem;
+    margin: 0%;
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+
+}
+#editable-text{
+    padding: 0.8rem;
+    width: 200px;
+    margin-top: 110px;
+}
+
+.r3{
+    display: flex; 
+    color: #f7f7f7;
+    backdrop-filter: blur(2px) saturate(50%);
+    justify-content: space-between;
+    margin-left: 12rem;
+
+}
+
+.WorldT{
+    /* border: 2px dashed red; */
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 0%;
+    
+}
+
+
+i#ggl{
+    font-size: 1.5rem;
+    padding: 1.1rem;
+    margin: 0.6rem;
+    border-radius: 50%;
+
+}
+#jokeTab{
+    /* border: 2px dashed red; */
+    backdrop-filter: blur(25px) saturate(120%);
+    border-radius: 40px;
+    
+    width: 450px;
+    
+
+}
+
+#jokeTab > div.h {
+    text-decoration: underline;
+    padding: 1.5rem;
+    margin: 0%;
+    font-size: 2rem;
+    
+}
+
+#joke{
+    margin: 0%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    /* padding: 1.2rem; */
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+
+
+
+

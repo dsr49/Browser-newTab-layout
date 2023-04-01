@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="newTab.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="BGimg"><img src="newTabBG.jpeg" alt="" /></div>
+
+    <div class="sort1" style="display: flex; position: absolute">
+        <div class="bookmark">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/dsr49/"><i id="left" class="fa-brands fa-linkedin"
+                            style="color: #0072b1"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/dsr49"><i id="left" class="fa-brands fa-github"
+                            style="color: #ffffff"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://web.whatsapp.com/"><i id="left" class="fa-brands fa-whatsapp"
+                            style="color: #25d366"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/"><i id="left" class="fab fa-twitter" style="color: #00acee"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://web.telegram.org/k/"><i id="left" class="fa-brands fa-telegram"
+                            style="color: #0088cc"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www4.musichq.net/"><i id="left" class="fa-solid fa-film"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/"><i id="left" class="fa-brands fa-instagram"
+                            style="color: #ffbbe2"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.amazon.in/"><i id="left" class="fa-solid fa-cart-shopping"
+                            style="color: #ff9900"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mainContent">
+            <div class="r1" style="display: flex">
+                <form action="https://www.google.com/search" method="get" class="search">
+                    <input type="text" placeholder="hey, wanna EXPLORE something  &#129300; ??..." name="q" />
+                    <i class="fa-brands fa-google" style="color: #ff432e"></i>
+                    <button type="submit" style="visibility: hidden"></button>
+                </form>
+
+                <div id="waqt" style="position: relative; left: 150px; bottom: 50px"></div>
+            </div>
+
+            
+
+            <div class="r2" style="display: grid; grid-template-columns: 500px auto auto auto;">
+                
+                <div id="jokeTab" class="card">
+                    <div class="h">Explict_Content for today:</div>
+                    <div id="joke"></div>
+                </div>
+                <div id="Weather" class="card">
+                    <div style="z-index: 3; position: absolute">
+                        <h3 style="padding-bottom: 1rem"><u> Weather - todays</u></h3>
+                        <br />
+                        Place:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span id="city"></span> <br />
+                        Temp:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span id="temperature"></span>&#8451; <br />
+                        Min:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span id="max"></span>&#8451; <br />
+                        Max:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span id="min"></span>&#8451; <br />
+                        Weather: &nbsp;&nbsp;&nbsp;&nbsp;<span id="desc"></span>m/s
+                    </div>
+                    <img src="weatherBG.jpeg" alt="" width="250" height="375" style="" />
+                </div>
+
+                <div id="apps" class="card">
+                    <div style="z-index: 3; position: absolute; display: grid; grid-template-columns: auto auto auto; 
+            margin-left: 0.8rem; ">
+                        <span><a href="https://mail.google.com/mail/u/0/#inbox"> <i id="ggl"
+                                    class="fa-solid fa-envelope" style="color: #ff9797;"></i> </a></span>
+
+                        <span><a href="https://www.youtube.com/watch?v=H0NFTIhxOpc"> <i id="ggl"
+                                    class="fa-brands fa-youtube" style="color: #ff9d9d;"></i> </a></span>
+
+                        <span><a href="https://calendar.google.com/calendar/u/0/r"> <i id="ggl"
+                                    class="fa-regular fa-calendar-days" style="color: #ff7a7a;"></i> </a></span>
+
+                        <span><a href="https://drive.google.com/drive/my-drive"> <i id="ggl"
+                                    class="fa-brands fa-google-drive" style="color: #ff9898;"></i> </a></span>
+
+                        <span><a href="https://meet.google.com/?authuser=2"> <i id="ggl" class="fa-solid fa-phone"
+                                    style="color: #ff9d9d;"></i> </a></span>
+
+                        <span><a href="https://docs.google.com/document/u/0/"> <i id="ggl" class="fab fa-dochub"
+                                    style="color: #ff9d9d;"></i> </a></span>
+
+                        <span><a href="https://www.google.com/maps/@26.9485545,75.7487774,15z"> <i id="ggl"
+                                    class="fas fa-map-marker-alt" style="color: #ffc0c0;"></i> </a></span>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div>
+                            <h1 style="color: #002734;">&nbsp; apps</h1>
+                        </div>
+                    </div>
+
+                    <img src="appsBG.jpeg" alt="" width="250" height="375" />
+                </div>
+
+                <div id="todo" class="card">
+                    <div style="z-index: 3; position: absolute">
+                        <a style="">
+                            <h3 class="txt-ne" style="margin-left: 11%; margin-bottom: 12%" data-text="Developer dush">
+                                <div id="editable-text" contenteditable="true">...</div>
+                            </h3>
+                        </a>
+                    </div>
+                    <img src="todoBG.jpeg" alt="" width="250" height="375" />
+                </div>
+            </div>
+
+            <div class="r3">
+                <div class="WorldT">
+                    <div id="berlin"></div>
+                    <span id="berlinT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="capeT">
+                    <div id="capetown"></div>
+                    <span id="capetownT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="tok">
+                    <div id="tokyo"></div>
+                    <span id="tokyoT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="syd">
+                    <div id="sydney"></div>
+                    <span id="sydneyT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="kny">
+                    <div id="kenya"></div>
+                    <span id="kenyaT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="mscw">
+                    <div id="moscow"></div>
+                    <span id="moscowT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="cali">
+                    <div id="california"></div>
+                    <span id="californiaT"></span>&#8451;
+                </div>
+
+                <div class="WorldT" id="cai">
+                    <div id="cairo"></div>
+                    <span id="cairoT"></span>&#8451;
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/db74ba4a88.js" crossorigin="anonymous"></script>
+
+    <script>
+        setInterval(() => {
+            let d = new Date();
+            document.getElementById("waqt").innerHTML = d.toLocaleTimeString([], {
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: false,
+            });
+        });
+
+        {let a = [
+    "I was digging in our garden when I found a chest full of gold coins. I was about to run straight home to tell my wife about it, but then I remembered why I was digging in our garden."
+    ,
+    "My elderly relatives liked to tease me at weddings, saying, “You’ll be next!” They soon stopped though, once I started doing the same to them at funerals."
+    ,
+    "When I see the names of lovers engraved on a tree, I don't find it cute or romantic. I find it weird how many people take knives with them on dates."
+    ,
+    "My girlfriend’s dog died, so I tried to cheer her up by getting her an identical one. It just made her more upset. She screamed at me and said, “What am I supposed to do with two dead dogs?”"
+    ,
+    "I hate double standards. Burn a body at a crematorium, you're being a respectful friend. Do it at home and you're >destroying evidence.<"
+    ,
+    "I'd like to have kids one day. I don't think I could stand them any longer than that, though."
+    ,
+    "The doctor gave me one year to live, so I shot him. The judge gave me 15 years. Problem solved."
+    ,
+    "A guy walks with a young boy into the woods. The boy turns to him and says, Hey mister, it's getting really dark and I am scared. The man replies, How do you think I feel? I have to walk back alone."
+    ,
+    "The other day, my wife asked me to pass her lipstick but I accidentally passed her a glue stick. She still isn't talking to me."
+    ,
+    "What is the worst combination of illnesses? Alzheimer’s and diarrhea. You’re running but can’t remember where."
+    ,
+    "Turns out a major new study recently found that humans eat more bananas than monkeys. It’s true. I can’t remember the last time I ate a monkey."
+    ,
+    "A son tells his father, I have an imaginary girlfriend.The father sighs and says, You know, you could do better.Thanks Dad,the son says. The father shakes his head and goes, I was talking to your girlfriend."
+    ,
+    "I've asked so many people what LGBTQ stands for. So far no one has given me a straight answer."
+    ,
+    "I got my COVID test today, it says 50. What does that mean? Also, my IQ test came back positive."
+    ,
+    "My boss told me to have a good day. So I went home."
+    ,
+    "My wife and I were out to dinner and the waitress started flirting with me. She obviously has COVID, my wife said. Why? I asked. My wife replied with a sneer, Because she has no taste."
+    ,
+    "My parents raised me as an only child, which really annoyed my younger brother."
+    ,
+    "Today was a terrible day. My ex got hit by a bus. And I lost my job as a bus driver!"
+    ,
+    "A man walks into a magic forest and tries to cut down a talking tree. You can't cut me down, the tree complains. I'm a talking tree! The man responds, You may be a talking tree, but you will dialogue."
+    ,
+    "I wasn't close to my father when he died. Which is lucky because he stepped on a landmine."
+
+
+]
+
+let r = a[Math.floor(Math.random()*a.length)];
+
+
+document.getElementById("joke").textContent=r;
+
+}
+
+        let a = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=jaipur,IN&appid=a3106545d0c9985c8001796683436a21"
+        );
+        a.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.toUpperCase();
+            const cityis = document.getElementById("city");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273;
+            const temperatureAvg = document.getElementById("temperature");
+            temperatureAvg.textContent = temperatureAv.toFixed(2);
+
+            const temperatureMax = data.main.temp_max - 273;
+            const temperaturemx = document.getElementById("max");
+            temperaturemx.textContent = temperatureMax.toFixed(2);
+
+            const temperatureMin = data.main.temp_min - 273;
+            const temperatureMn = document.getElementById("min");
+            temperatureMn.textContent = temperatureMin.toFixed(2);
+
+            const weatherDesc = data.wind.speed;
+            const weather = document.getElementById("desc");
+            weather.textContent = weatherDesc;
+        });
+
+        let p = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=berlin&appid=a3106545d0c9985c8001796683436a21"
+        );
+        p.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("berlin");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp;
+            var Avg = document.getElementById("berlinT");
+            Avg.textContent = temperatureAv;
+        });
+
+        let q = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=Cape Town&appid=a3106545d0c9985c8001796683436a21"
+        );
+        q.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("capetown");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("capetownT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+
+        let r = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=tokyo&appid=a3106545d0c9985c8001796683436a21"
+        );
+        r.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("tokyo");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("tokyoT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+
+        let s = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=sydney&appid=a3106545d0c9985c8001796683436a21"
+        );
+        s.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("sydney");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("sydneyT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+
+        let u = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=kenya&appid=a3106545d0c9985c8001796683436a21"
+        );
+        u.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("kenya");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("kenyaT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+
+        let t = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=moscow&appid=a3106545d0c9985c8001796683436a21"
+        );
+        t.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("moscow");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("moscowT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+
+        let v = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=california&appid=a3106545d0c9985c8001796683436a21"
+        );
+        v.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("california");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("californiaT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+
+        let w = fetch(
+            "https://api.openweathermap.org/data/2.5/weather?q=cairo&appid=a3106545d0c9985c8001796683436a21"
+        );
+        w.then((value1) => {
+            return value1.json();
+        }).then((data) => {
+            console.log(data);
+
+            const city = data.name.charAt(0).toUpperCase() + data.name.slice(1);
+            const cityis = document.getElementById("cairo");
+            cityis.textContent = city;
+
+            const temperatureAv = data.main.temp - 273.15;
+            var Avg = document.getElementById("cairoT");
+            Avg.textContent = temperatureAv.toFixed(2);
+        });
+    </script>
+</body>
+
+</html>
